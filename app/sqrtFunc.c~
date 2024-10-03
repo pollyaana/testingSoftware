@@ -1,0 +1,22 @@
+
+#include <stdio.h>
+#include <stdlib.h>
+#include "sqrtFunc.h"
+#include <math.h>
+
+int sqrtFunc(int a,b,c) {
+    int d = b * b - 4 * a * c;
+    if (d > 0){
+    int x1 = (-b + sqrt(d)) / (2 * a);
+    int x2 = (-b - sqrt(d)) / (2 * a);
+    printf("Корни: "
+    }
+    else if (d == 0){
+	int x = -(b / ( 2 * a));
+    }
+    else{
+	printf("Корней нет");
+    }
+    // здесь должен ругаться sonarcloud, т.к. утечка памяти
+    return 0;
+}

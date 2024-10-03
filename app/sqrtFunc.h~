@@ -1,0 +1,10 @@
+#ifndef SQRTFUNC_H
+#define SQRTFUNC__H
+
+int sqrtfunc(int b);
+
+void printStdoutMessages();
+
+extern int val;
+
+#endif // SQRTFUNC_H

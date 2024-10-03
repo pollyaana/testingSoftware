@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/01/boyackov/testSoftware/res/ctest/app/myfunc.c
+stdio.h
+-
+stdlib.h
+-
+myfunc.h
+/home/01/boyackov/testSoftware/res/ctest/app/myfunc.h
+math.h
+-
+
+/home/01/boyackov/testSoftware/res/ctest/app/myfunc.h
+
