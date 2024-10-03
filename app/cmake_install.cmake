@@ -1,4 +1,4 @@
-# Install script for directory: /home/01/boyackov/testSoftware/res/ctest/app
+# Install script for directory: /home/01/boyackov/testSoftware/new/ctest/app
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

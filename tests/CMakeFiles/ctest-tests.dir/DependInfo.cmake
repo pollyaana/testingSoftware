@@ -5,13 +5,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/01/boyackov/testSoftware/res/ctest/app/myfunc.c" "/home/01/boyackov/testSoftware/res/ctest/tests/CMakeFiles/ctest-tests.dir/__/app/myfunc.c.o"
+  "/home/01/boyackov/testSoftware/new/ctest/app/myfunc.c" "/home/01/boyackov/testSoftware/new/ctest/tests/CMakeFiles/ctest-tests.dir/__/app/myfunc.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_C
-  "INPUTDIR=\"/home/01/boyackov/testSoftware/res/ctest/tests/input\""
+  "INPUTDIR=\"/home/01/boyackov/testSoftware/new/ctest/tests/input\""
   )
 
 # The include file search paths:
@@ -25,13 +25,13 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "external/googletest/googlemock"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/01/boyackov/testSoftware/res/ctest/tests/main.cpp" "/home/01/boyackov/testSoftware/res/ctest/tests/CMakeFiles/ctest-tests.dir/main.cpp.o"
+  "/home/01/boyackov/testSoftware/new/ctest/tests/main.cpp" "/home/01/boyackov/testSoftware/new/ctest/tests/CMakeFiles/ctest-tests.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
-  "INPUTDIR=\"/home/01/boyackov/testSoftware/res/ctest/tests/input\""
+  "INPUTDIR=\"/home/01/boyackov/testSoftware/new/ctest/tests/input\""
   )
 
 # The include file search paths:
@@ -47,9 +47,9 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/01/boyackov/testSoftware/res/ctest/external/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
-  "/home/01/boyackov/testSoftware/res/ctest/external/googletest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
-  "/home/01/boyackov/testSoftware/res/ctest/external/googletest/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake"
+  "/home/01/boyackov/testSoftware/new/ctest/external/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "/home/01/boyackov/testSoftware/new/ctest/external/googletest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
+  "/home/01/boyackov/testSoftware/new/ctest/external/googletest/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

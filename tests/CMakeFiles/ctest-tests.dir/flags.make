@@ -5,13 +5,13 @@
 # compile CXX with /usr/bin/c++
 C_FLAGS = -Wall -Wextra -Wpedantic -Wconversion -Wunreachable-code -Wold-style-cast -fprofile-arcs -ftest-coverage  
 
-C_DEFINES = -DINPUTDIR=\"/home/01/boyackov/testSoftware/res/ctest/tests/input\"
+C_DEFINES = -DINPUTDIR=\"/home/01/boyackov/testSoftware/new/ctest/tests/input\"
 
-C_INCLUDES = -I/home/01/boyackov/testSoftware/res/ctest/tests/ctest-tests -I/home/01/boyackov/testSoftware/res/ctest/tests/PUBLIC -I/home/01/boyackov/testSoftware/res/ctest/tests/../app -isystem /home/01/boyackov/testSoftware/res/ctest/external/googletest/googletest/include -isystem /home/01/boyackov/testSoftware/res/ctest/external/googletest/googletest -isystem /home/01/boyackov/testSoftware/res/ctest/external/googletest/googlemock/include -isystem /home/01/boyackov/testSoftware/res/ctest/external/googletest/googlemock 
+C_INCLUDES = -I/home/01/boyackov/testSoftware/new/ctest/tests/ctest-tests -I/home/01/boyackov/testSoftware/new/ctest/tests/PUBLIC -I/home/01/boyackov/testSoftware/new/ctest/tests/../app -isystem /home/01/boyackov/testSoftware/new/ctest/external/googletest/googletest/include -isystem /home/01/boyackov/testSoftware/new/ctest/external/googletest/googletest -isystem /home/01/boyackov/testSoftware/new/ctest/external/googletest/googlemock/include -isystem /home/01/boyackov/testSoftware/new/ctest/external/googletest/googlemock 
 
 CXX_FLAGS = -Wall -Wextra -Wpedantic -Wconversion -Wunreachable-code -Wold-style-cast -fprofile-arcs -ftest-coverage   -std=gnu++14
 
-CXX_DEFINES = -DINPUTDIR=\"/home/01/boyackov/testSoftware/res/ctest/tests/input\"
+CXX_DEFINES = -DINPUTDIR=\"/home/01/boyackov/testSoftware/new/ctest/tests/input\"
 
-CXX_INCLUDES = -I/home/01/boyackov/testSoftware/res/ctest/tests/ctest-tests -I/home/01/boyackov/testSoftware/res/ctest/tests/PUBLIC -I/home/01/boyackov/testSoftware/res/ctest/tests/../app -isystem /home/01/boyackov/testSoftware/res/ctest/external/googletest/googletest/include -isystem /home/01/boyackov/testSoftware/res/ctest/external/googletest/googletest -isystem /home/01/boyackov/testSoftware/res/ctest/external/googletest/googlemock/include -isystem /home/01/boyackov/testSoftware/res/ctest/external/googletest/googlemock 
+CXX_INCLUDES = -I/home/01/boyackov/testSoftware/new/ctest/tests/ctest-tests -I/home/01/boyackov/testSoftware/new/ctest/tests/PUBLIC -I/home/01/boyackov/testSoftware/new/ctest/tests/../app -isystem /home/01/boyackov/testSoftware/new/ctest/external/googletest/googletest/include -isystem /home/01/boyackov/testSoftware/new/ctest/external/googletest/googletest -isystem /home/01/boyackov/testSoftware/new/ctest/external/googletest/googlemock/include -isystem /home/01/boyackov/testSoftware/new/ctest/external/googletest/googlemock 
 

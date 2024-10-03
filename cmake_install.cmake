@@ -1,4 +1,4 @@
-# Install script for directory: /home/01/boyackov/testSoftware/new/ctest/tests
+# Install script for directory: /home/01/boyackov/testSoftware/new/ctest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -37,3 +37,21 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for each subdirectory.
+  include("/home/01/boyackov/testSoftware/new/ctest/app/cmake_install.cmake")
+  include("/home/01/boyackov/testSoftware/new/ctest/external/googletest/cmake_install.cmake")
+  include("/home/01/boyackov/testSoftware/new/ctest/tests/cmake_install.cmake")
+
+endif()
+
+if(CMAKE_INSTALL_COMPONENT)
+  set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
+else()
+  set(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
+endif()
+
+string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
+       "${CMAKE_INSTALL_MANIFEST_FILES}")
+file(WRITE "/home/01/boyackov/testSoftware/new/ctest/${CMAKE_INSTALL_MANIFEST}"
+     "${CMAKE_INSTALL_MANIFEST_CONTENT}")

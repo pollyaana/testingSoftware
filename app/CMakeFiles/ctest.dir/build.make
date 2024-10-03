@@ -60,10 +60,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/01/boyackov/testSoftware/res/ctest
+CMAKE_SOURCE_DIR = /home/01/boyackov/testSoftware/new/ctest
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/01/boyackov/testSoftware/res/ctest
+CMAKE_BINARY_DIR = /home/01/boyackov/testSoftware/new/ctest
 
 # Include any dependencies generated for this target.
 include app/CMakeFiles/ctest.dir/depend.make
@@ -76,29 +76,29 @@ include app/CMakeFiles/ctest.dir/flags.make
 
 app/CMakeFiles/ctest.dir/main.c.o: app/CMakeFiles/ctest.dir/flags.make
 app/CMakeFiles/ctest.dir/main.c.o: app/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/01/boyackov/testSoftware/res/ctest/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object app/CMakeFiles/ctest.dir/main.c.o"
-	cd /home/01/boyackov/testSoftware/res/ctest/app && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ctest.dir/main.c.o   -c /home/01/boyackov/testSoftware/res/ctest/app/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/01/boyackov/testSoftware/new/ctest/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object app/CMakeFiles/ctest.dir/main.c.o"
+	cd /home/01/boyackov/testSoftware/new/ctest/app && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ctest.dir/main.c.o   -c /home/01/boyackov/testSoftware/new/ctest/app/main.c
 
 app/CMakeFiles/ctest.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ctest.dir/main.c.i"
-	cd /home/01/boyackov/testSoftware/res/ctest/app && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/01/boyackov/testSoftware/res/ctest/app/main.c > CMakeFiles/ctest.dir/main.c.i
+	cd /home/01/boyackov/testSoftware/new/ctest/app && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/01/boyackov/testSoftware/new/ctest/app/main.c > CMakeFiles/ctest.dir/main.c.i
 
 app/CMakeFiles/ctest.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ctest.dir/main.c.s"
-	cd /home/01/boyackov/testSoftware/res/ctest/app && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/01/boyackov/testSoftware/res/ctest/app/main.c -o CMakeFiles/ctest.dir/main.c.s
+	cd /home/01/boyackov/testSoftware/new/ctest/app && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/01/boyackov/testSoftware/new/ctest/app/main.c -o CMakeFiles/ctest.dir/main.c.s
 
 app/CMakeFiles/ctest.dir/myfunc.c.o: app/CMakeFiles/ctest.dir/flags.make
 app/CMakeFiles/ctest.dir/myfunc.c.o: app/myfunc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/01/boyackov/testSoftware/res/ctest/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object app/CMakeFiles/ctest.dir/myfunc.c.o"
-	cd /home/01/boyackov/testSoftware/res/ctest/app && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ctest.dir/myfunc.c.o   -c /home/01/boyackov/testSoftware/res/ctest/app/myfunc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/01/boyackov/testSoftware/new/ctest/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object app/CMakeFiles/ctest.dir/myfunc.c.o"
+	cd /home/01/boyackov/testSoftware/new/ctest/app && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ctest.dir/myfunc.c.o   -c /home/01/boyackov/testSoftware/new/ctest/app/myfunc.c
 
 app/CMakeFiles/ctest.dir/myfunc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ctest.dir/myfunc.c.i"
-	cd /home/01/boyackov/testSoftware/res/ctest/app && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/01/boyackov/testSoftware/res/ctest/app/myfunc.c > CMakeFiles/ctest.dir/myfunc.c.i
+	cd /home/01/boyackov/testSoftware/new/ctest/app && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/01/boyackov/testSoftware/new/ctest/app/myfunc.c > CMakeFiles/ctest.dir/myfunc.c.i
 
 app/CMakeFiles/ctest.dir/myfunc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ctest.dir/myfunc.c.s"
-	cd /home/01/boyackov/testSoftware/res/ctest/app && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/01/boyackov/testSoftware/res/ctest/app/myfunc.c -o CMakeFiles/ctest.dir/myfunc.c.s
+	cd /home/01/boyackov/testSoftware/new/ctest/app && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/01/boyackov/testSoftware/new/ctest/app/myfunc.c -o CMakeFiles/ctest.dir/myfunc.c.s
 
 # Object files for target ctest
 ctest_OBJECTS = \
@@ -112,8 +112,8 @@ app/ctest: app/CMakeFiles/ctest.dir/main.c.o
 app/ctest: app/CMakeFiles/ctest.dir/myfunc.c.o
 app/ctest: app/CMakeFiles/ctest.dir/build.make
 app/ctest: app/CMakeFiles/ctest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/01/boyackov/testSoftware/res/ctest/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable ctest"
-	cd /home/01/boyackov/testSoftware/res/ctest/app && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ctest.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/01/boyackov/testSoftware/new/ctest/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable ctest"
+	cd /home/01/boyackov/testSoftware/new/ctest/app && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ctest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 app/CMakeFiles/ctest.dir/build: app/ctest
@@ -121,10 +121,10 @@ app/CMakeFiles/ctest.dir/build: app/ctest
 .PHONY : app/CMakeFiles/ctest.dir/build
 
 app/CMakeFiles/ctest.dir/clean:
-	cd /home/01/boyackov/testSoftware/res/ctest/app && $(CMAKE_COMMAND) -P CMakeFiles/ctest.dir/cmake_clean.cmake
+	cd /home/01/boyackov/testSoftware/new/ctest/app && $(CMAKE_COMMAND) -P CMakeFiles/ctest.dir/cmake_clean.cmake
 .PHONY : app/CMakeFiles/ctest.dir/clean
 
 app/CMakeFiles/ctest.dir/depend:
-	cd /home/01/boyackov/testSoftware/res/ctest && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/01/boyackov/testSoftware/res/ctest /home/01/boyackov/testSoftware/res/ctest/app /home/01/boyackov/testSoftware/res/ctest /home/01/boyackov/testSoftware/res/ctest/app /home/01/boyackov/testSoftware/res/ctest/app/CMakeFiles/ctest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/01/boyackov/testSoftware/new/ctest && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/01/boyackov/testSoftware/new/ctest /home/01/boyackov/testSoftware/new/ctest/app /home/01/boyackov/testSoftware/new/ctest /home/01/boyackov/testSoftware/new/ctest/app /home/01/boyackov/testSoftware/new/ctest/app/CMakeFiles/ctest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : app/CMakeFiles/ctest.dir/depend
 
