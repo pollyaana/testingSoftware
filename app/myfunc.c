@@ -7,6 +7,18 @@ char* myfunc(int a, int b, int c) {
     int d = b * b - 4 * a * c;
     if (a == 0 && b == 0 && c == 0) return "Бесконечное число решений";
     if (d > 0){
+	if (a == 0)
+	{
+	    int x;
+	    if (b == 0) x = -c;
+	    else{
+		x = -c / b;}
+	    printf("Корень: %d\n", x);
+	    static char buffer[20];
+	    snprintf(buffer, sizeof(buffer), "%d", x);
+	    const char* str = buffer;
+	    return str;
+	}
     int x1 = (-b + sqrt(d)) / (2 * a);
     int x2 = (-b - sqrt(d)) / (2 * a);
     printf("Решение: x1= %d x2 = %d\n", x1, x2);

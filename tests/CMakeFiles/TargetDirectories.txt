@@ -1,0 +1,3 @@
+/home/01/boyackov/testSoftware/new/ctest/tests/CMakeFiles/rebuild_cache.dir
+/home/01/boyackov/testSoftware/new/ctest/tests/CMakeFiles/edit_cache.dir
+/home/01/boyackov/testSoftware/new/ctest/tests/CMakeFiles/ctest-tests.dir

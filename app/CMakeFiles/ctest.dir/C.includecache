@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/01/boyackov/testSoftware/res/ctest/app/myfunc.c
+/home/01/boyackov/testSoftware/new/ctest/app/myfunc.c
 stdio.h
 -
 stdlib.h
 -
 myfunc.h
-/home/01/boyackov/testSoftware/res/ctest/app/myfunc.h
+/home/01/boyackov/testSoftware/new/ctest/app/myfunc.h
 math.h
 -
 
-/home/01/boyackov/testSoftware/res/ctest/app/myfunc.h
+/home/01/boyackov/testSoftware/new/ctest/app/myfunc.h
 

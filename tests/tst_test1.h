@@ -6,6 +6,12 @@ extern "C" {
 #include "myfunc.h"
 }
 
+TEST(test0, twoRoots)
+{
+    EXPECT_STREQ(myfunc(0,1,2), "-2");
+}
+
+
 TEST(test1, twoRoots)
 {
     EXPECT_STREQ(myfunc(1,-4,-5), "5 -1");
